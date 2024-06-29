@@ -22,7 +22,7 @@ body {
     box-sizing: border-box;
     font-family: "Teko", sans-serif;
     background-color: #4040b6;
-    background-image: url("/images/Justiceleaguebackground.JPG");
+    background-image: url("../images/Justiceleaguebackground.JPG");
     background-repeat: no-repeat;
     background-size: cover  ;
     background-position: -150px 50px;
@@ -179,6 +179,7 @@ a:hover::before {
     margin: 0 100px;
     display: flex;
     justify-content: space-between;
+    color: bisque;
 }
 
 footer {
