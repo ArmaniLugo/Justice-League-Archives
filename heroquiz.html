@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="heroquiz.html">Super Hero Quiz</a></li>
+            <li><a href="versions.html">Super Hero Version</a></li>
+            <li><a href="readings.html">Recommended Readings</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+    <div class="quiz-container">
+        <h1>Which Superhero Are You?</h1>
+        <div class="question" data-question="1">
+            <p>What is your favorite color?</p>
+            <label><input type="radio" name="question1" value="superman"> Blue</label><br>
+            <label><input type="radio" name="question1" value="batman"> Black</label><br>
+            <label><input type="radio" name="question1" value="wonderwoman"> Red</label><br>
+            <label><input type="radio" name="question1" value="flash"> Yellow</label><br>
+        </div>
+        <div class="question" data-question="2">
+            <p>What is your favorite hobby?</p>
+            <label><input type="radio" name="question2" value="batman"> Martial Arts</label><br>
+            <label><input type="radio" name="question2" value="superman"> Flying</label><br>
+            <label><input type="radio" name="question2" value="wonderwoman"> Archery</label><br>
+            <label><input type="radio" name="question2" value="flash"> Running</label><br>
+        </div>
+        <div class="question" data-question="3">
+            <p>What is your greatest strength?</p>
+            <label><input type="radio" name="question3" value="superman"> Super Strength</label><br>
+            <label><input type="radio" name="question3" value="batman"> Intelligence</label><br>
+            <label><input type="radio" name="question3" value="wonderwoman"> Bravery</label><br>
+            <label><input type="radio" name="question3" value="flash"> Speed</label><br>
+        </div>
+        <button onclick="submitQuiz()">Submit</button>
+        <div class="result" id="result">
+            <h2>You are most like: <span id="superhero"></span></h2>
+        </div>
+    </div>
+    <footer></footer>
+    <script src="js/heroquiz.js"></script>
+</body>
+</html>

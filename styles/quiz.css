@@ -1,0 +1,20 @@
+
+.quiz-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #e5dcdc;
+}
+.question {
+    margin-bottom: 20px;
+}
+.result {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #28a745;
+    border-radius: 4px;
+    background-color: #d4edda;
+}

@@ -1,0 +1,3 @@
+1. Need logo image
+2. Images for superhero
+3. Questions and code for superhero quiz
