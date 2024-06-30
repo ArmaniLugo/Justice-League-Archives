@@ -6,8 +6,8 @@ body {
     background-position: 20px 50px;
 }
 
-a:hover {
-    color: #000;
+a:hover, .hero-font:hover {
+    color: #fcde47;
 }
 
 a::before {
@@ -34,6 +34,7 @@ ul {
 ul li a {
     color: whitesmoke;
     font-size: 28px;
+    text-decoration: none;
 }
 
 .reading-title {
@@ -45,4 +46,16 @@ ul li a {
     font-size: 40px;
     text-align: center;
     text-shadow: 1px 1px #b1a9a9;
+}
+
+.hero-font {
+    font-family: 'HallofHeroes', system-ui;
+    font-style: normal;
+    letter-spacing: 4px;
+    text-shadow: 1px 1px #b1a9a9;
+    color: #d2d3db;
+}
+
+.reading-list h2 {
+    padding-left: 26px;
 }
